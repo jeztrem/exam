@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="6" TreeLevel="1">Elbow Extension</Header>
+    <Button GroupName="ElbowExtension">
+      <Header Span="2">R = L</Header>
+      <Phrase Key="Equal">elbow extension</Phrase>
+    </Button>
+    <Button GroupName="ElbowExtension">
+      <Header Span="2">R &gt; L</Header>
+      <Phrase Key="UnEqual">left elbow extension strength is diminished relative to the right</Phrase>
+    </Button>
+    <Button GroupName="ElbowExtension">
+      <Header Span="2">R &lt; L</Header>
+      <Phrase Key="UnEqual">right elbow extension strength is diminished relative to the left</Phrase>
+    </Button>
+  </Row>
+</Root>

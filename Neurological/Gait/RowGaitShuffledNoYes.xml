@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="6">Shuffled</Header>
+    <Button GroupName="Shuffled">
+      <Header Span="3">No</Header>
+      <Phrase Key="-">shuffled</Phrase>
+      <Data Key="PhysicalExam.Neurological.Gait.Shuffled" Value="+" />
+    </Button>
+    <Button GroupName="Shuffled">
+      <Header Span="3">Yes</Header>
+      <Phrase Key="Shuffled">shuffled</Phrase>
+      <Data Key="PhysicalExam.Neurological.Gait.Shuffled" Value="+" />
+    </Button>
+  </Row>
+</Root>

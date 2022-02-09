@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Text Key="PhysicalExam.Neurological">
+    <TextOption Key="+" Value="The %{side}-sided maneuver produced #{+} nystagmus." />
+    <Conjunction Key="+" Value="and" />
+  </Text>
+  <Grid ControlType="CheckBox">
+    <Row>
+      <Header Span="6" TreeLevel="1">Nystagmus: Vertical Upward</Header>
+      <Button>
+        <Header Span="6">Yes</Header>
+        <Phrase Key="+">vertical upward</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Nystagmus: Rotatory</Header>
+      <Button>
+        <Header Span="6">Yes</Header>
+        <Phrase Key="+">rotatory</Phrase>
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

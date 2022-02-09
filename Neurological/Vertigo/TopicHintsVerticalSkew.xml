@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6">Vertical Skew Deviation</Header>
+      <Button GroupName="1">
+        <Header Span="2">No</Header>
+        <Phrase Key="VSD" />
+        <Text Key="PhysicalExam.Neurological" Value="Vertical test of skew was negative." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">Yes</Header>
+        <Phrase Key="VSD" />
+        <Text Key="PhysicalExam.Neurological" Value="Vertical test of skew was positive." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">?</Header>
+        <Phrase Key="VSD" />
+        <Text Key="PhysicalExam.Neurological" Value="Test of vertical skew was not conclusive." />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

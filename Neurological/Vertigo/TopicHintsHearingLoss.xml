@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6">New Hearing Loss</Header>
+      <Button GroupName="1">
+        <Header Span="2">No</Header>
+        <Phrase Key="HearingLoss" />
+        <Text Key="PhysicalExam.Neurological" Value="No new hearing loss." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">Yes</Header>
+        <Phrase Key="HearingLoss" />
+        <Text Key="PhysicalExam.Neurological" Value="New hearing loss noted." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">?</Header>
+        <Phrase Key="HearingLoss" />
+        <Text Key="PhysicalExam.Neurological" Value="Difficult to ascertain if there is a new hearing loss." />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>A diagnosis of vestibular neuritis can be made if:
+        1). Spontaneous or gaze evoked nystagmus are not bidirectional.
+        2). No vertical skew deviation.
+        3). Head Impulse testing is abnormal. (Abnormal if nystagmus.)
+        4). No hearing loss. (Finger rub test.)</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+</Topic>

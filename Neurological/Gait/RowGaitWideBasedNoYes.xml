@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="6">Wide Based</Header>
+    <Button GroupName="WideBased">
+      <Header Span="3">No</Header>
+      <Phrase Key="-">wide based</Phrase>
+      <Data Key="PhysicalExam.Neurological.Gait.WideBased" Value="+" />
+    </Button>
+    <Button GroupName="WideBased">
+      <Header Span="3">Yes</Header>
+      <Phrase Key="+">wide based</Phrase>
+      <Data Key="PhysicalExam.Neurological.Gait.WideBased" Value="+" />
+    </Button>
+  </Row>
+</Root>

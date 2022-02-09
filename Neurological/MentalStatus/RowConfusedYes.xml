@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="6">Confused</Header>
+    <Button GroupName="Confused">
+      <Header Span="6">Yes</Header>
+      <Phrase Key="+">confused</Phrase>
+      <Data Key="PhysicalExam.AMS" Value="+" />
+    </Button>
+  </Row>
+</Root>

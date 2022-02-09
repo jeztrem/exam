@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Text Key="PhysicalExam.Neurological">
+    <Conjunction Key="+" Value="and" />
+    <Conjunction Key="-" Value="or" />
+    <TextOption Key="+" Value="Oriented to #{+}.">
+      <TextOption Key="-" Value="Oriented to #{+}, but not #{-}." />
+    </TextOption>
+    <TextOption Key="-" Value="Not oriented to #{-}." />
+  </Text>
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6" TreeLevel="1">Oriented to Person</Header>
+      <Button GroupName="Person">
+        <Header Span="3">Yes</Header>
+        <Phrase Key="+">person</Phrase>
+      </Button>
+      <Button GroupName="Person">
+        <Header Span="3">No</Header>
+        <Phrase Key="-">person</Phrase>
+        <Data Key="PhysicalExam.AMS" Value="+" />
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Oriented to Place</Header>
+      <Button GroupName="Place">
+        <Header Span="3">Yes</Header>
+        <Phrase Key="+">place</Phrase>
+      </Button>
+      <Button GroupName="Place">
+        <Header Span="3">No</Header>
+        <Phrase Key="-">place</Phrase>
+        <Data Key="PhysicalExam.AMS" Value="+" />
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Oriented to Time</Header>
+      <Button GroupName="Time">
+        <Header Span="3">Yes</Header>
+        <Phrase Key="+">time</Phrase>
+      </Button>
+      <Button GroupName="Time">
+        <Header Span="3">No</Header>
+        <Phrase Key="-">time</Phrase>
+        <Data Key="PhysicalExam.AMS" Value="+" />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Reflex" />
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6">Leg Reflexes</Header>
+      <Button GroupName="1">
+        <Header Span="3">Normal</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Normal patellar and achilles reflexes." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="3">More</Header>
+        <TopicImport Key="%{Path}/TopicReflexLowerMore.xml" />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

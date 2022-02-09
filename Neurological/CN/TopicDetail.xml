@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Grid ControlType="CheckBox">
+    <Row>
+      <Header Span="6" TreeLevel="1">Visual Fields Intact</Header>
+      <Button>
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Visual fields intact." />
+      </Button>
+      <Button>
+        <Header Span="3">More</Header>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Extraocular Movements Intact</Header>
+      <Button>
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Extraocular movements intact." />
+      </Button>
+      <Button>
+        <Header Span="3">More</Header>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Facial Sensation Normal</Header>
+      <Button>
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Normal facial sensation." />
+      </Button>
+      <Button>
+        <Header Span="3">More</Header>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Symmetric Facial Expression</Header>
+      <Button>
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Symmetric facial expression." />
+      </Button>
+      <Button>
+        <Header Span="3">More</Header>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Hearing Intact</Header>
+      <Button>
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Hearing intact." />
+      </Button>
+      <Button>
+        <Header Span="3">More</Header>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Uvula Midline</Header>
+      <Button>
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Uvula midline." />
+      </Button>
+      <Button>
+        <Header Span="3">More</Header>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Gag Reflex Intact</Header>
+      <Button>
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Gag reflex intact." />
+      </Button>
+      <Button>
+        <Header Span="3">More</Header>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Symmetric Shoulder Shrug</Header>
+      <Button>
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Symmetric shoulder shrug." />
+      </Button>
+      <Button>
+        <Header Span="3">More</Header>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Symmetric Tongue Protrusion</Header>
+      <Button>
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Symmetric tongue protrusion." />
+      </Button>
+      <Button>
+        <Header Span="3">More</Header>
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

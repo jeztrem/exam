@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Text Key="PhysicalExam.Neurological">
+    <TextOption Key="Eyes" Value="On intial exam the patient #{Eyes}.">
+      <TextOption Key="Verbal" Value="On intial exam the patient #{Eyes}, and #{Verbal}.">
+        <TextOption Key="Motor" Value="On intial exam the patient #{Eyes}, #{Verbal}, and #{Motor}." />
+      </TextOption>
+      <TextOption Key="Motor" Value="On intial exam the patient #{Eyes}, and #{Motor}."/>
+    </TextOption>
+    <TextOption Key="Verbal" Value="On intial exam the patient #{Verbal}.">
+      <TextOption Key="Motor" Value="On intial exam the patient #{Verbal}, and #{Motor}." />
+    </TextOption>
+    <TextOption Key="Motor" Value="On intial exam the patient #{Motor}." />
+  </Text>
+  <Grid ControlType="RadioButton">
+    <Header>Eye Opening</Header>
+    <Row>
+      <Header Span="6">Spontaneous</Header>
+      <Button GroupName="1">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Eyes">opens eyes spontaneously</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">To Voice</Header>
+      <Button GroupName="1">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Eyes">opens eyes to voice</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">To Pain</Header>
+      <Button GroupName="1">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Eyes">opens eyes to painful stimuli</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">None</Header>
+      <Button GroupName="1">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Eyes">does not open eyes</Phrase>
+      </Button>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>Verbal Response</Header>
+    <Row>
+      <Header Span="6">Oriented, Converses Normally</Header>
+      <Button GroupName="2">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Verbal">is orientated and converses normally</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">Confused, Disoriented</Header>
+      <Button GroupName="2">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Verbal">is confused and disoriented</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">Inappropriate Words</Header>
+      <Button GroupName="2">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Verbal">is using inappropriate words</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">Incomprehensible Words</Header>
+      <Button GroupName="2">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Verbal">words are incomprehensible</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">None</Header>
+      <Button GroupName="2">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Verbal">makes no sounds</Phrase>
+      </Button>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>Motor Response</Header>
+    <Row>
+      <Header Span="6">Obeys Commands</Header>
+      <Button GroupName="3">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Motor">obeys commands</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">Localizes Pain</Header>
+      <Button GroupName="3">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Motor">localizes pain</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">Withdrawal to Pain</Header>
+      <Button GroupName="3">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Motor">withdrawals to painful stimuli</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">Flexion to Pain</Header>
+      <Button GroupName="3">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Motor">flexor posturing to painful stimuli</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">Extension to Pain</Header>
+      <Button GroupName="3">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Motor">extensor posturing to painful stimuli</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6">None</Header>
+      <Button GroupName="3">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Motor">makes no movements</Phrase>
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

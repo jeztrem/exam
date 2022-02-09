@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Variable Key="%{His/Her}" />
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Strength" />
+  <Text Key="PhysicalExam.Neurological">
+    <Conjunction Key="Equal" Value="and" />
+    <Conjunction Key="UnEqual" Value="" />
+    <TextOption Key="Equal" Value="%{His/Her} #{Equal} strength is symmetric.">
+      <TextOption Key="UnEqual" Value="%{His/Her} #{Equal} strength is symmetric, #{UnEqual}." />
+    </TextOption>
+    <TextOption Key="UnEqual" Value="%{His/Her} #{UnEqual}." />
+  </Text>
+  <Grid ControlType="RadioButton">
+    <LocalImport Key="%{Path}/RowKneeExtension.xml" />
+    <LocalImport Key="%{Path}/RowKneeFlexion.xml" />
+  </Grid>
+</Topic>

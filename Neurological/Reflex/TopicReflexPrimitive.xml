@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Text Key="PhysicalExam.Neurological">
+    <Conjunction Key="Normal" Value="and" />
+    <Conjunction Key="Absent" Value="and" />
+    <TextOption Key="Normal" Value=" Normal #{Normal}.">
+      <TextOption Key="Absent" Value="Normal #{Normal}, but absent #{Absent}." />
+    </TextOption>
+    <TextOption Key="Absent" Value="Absent #{Absent}." />
+  </Text>
+  <If>
+    <Condition Operator="]" Key="Age" Value="30" Unit="Day" />
+    <Grid ControlType="RadioButton">
+      <Row>
+        <Header Span="6">Reflex: Rooting</Header>
+        <Button GroupName="Rooting">
+          <Header Span="3">Normal</Header>
+          <Phrase Key="Normal">rooting reflex</Phrase>
+        </Button>
+        <Button GroupName="Rooting">
+          <Header Span="3">Absent</Header>
+          <Phrase Key="Absent">rooting reflex</Phrase>
+        </Button>
+      </Row>
+      <Row>
+        <Header Span="6">Reflex: Palmar Grasp</Header>
+        <Button GroupName="PalmarGrasp">
+          <Header Span="3">Normal</Header>
+          <Phrase Key="Normal">palmar grasp</Phrase>
+        </Button>
+        <Button GroupName="PalmarGrasp">
+          <Header Span="3">Absent</Header>
+          <Phrase Key="Absent">palmar grasp</Phrase>
+        </Button>
+      </Row>
+      <Row>
+        <Header Span="6">Reflex: Moro</Header>
+        <Button GroupName="Moro">
+          <Header Span="3">Normal</Header>
+          <Phrase Key="Normal">Moro reflex</Phrase>
+        </Button>
+        <Button GroupName="Moro">
+          <Header Span="3">Absent</Header>
+          <Phrase Key="Absent">Moro reflex</Phrase>
+        </Button>
+      </Row>
+    </Grid>
+  </If>
+  <If>
+    <Condition Operator="(" Key="Age" Value="30" Unit="Day" />
+    <Condition Operator="]" Key="Age" Value="70" Unit="Day" />
+    <Grid ControlType="RadioButton">
+      <Row>
+        <Header Span="6">Reflex: Palmar Grasp</Header>
+        <Button GroupName="PalmarGrasp">
+          <Header Span="3">Normal</Header>
+          <Phrase Key="Normal">palmar grasp</Phrase>
+        </Button>
+        <Button GroupName="PalmarGrasp">
+          <Header Span="3">Absent</Header>
+          <Phrase Key="Absent">palmar grasp</Phrase>
+        </Button>
+      </Row>
+      <Row>
+        <Header Span="6">Reflex: Moro</Header>
+        <Button GroupName="Moro">
+          <Header Span="3">Normal</Header>
+          <Phrase Key="Normal">Moro reflex</Phrase>
+        </Button>
+        <Button GroupName="Moro">
+          <Header Span="3">Absent</Header>
+          <Phrase Key="Absent">Moro reflex</Phrase>
+        </Button>
+      </Row>
+    </Grid>
+  </If>
+  <If>
+    <Condition Operator="(" Key="Age" Value="70" Unit="Day" />
+    <Condition Operator="]" Key="Age" Value="5" Unit="Month" />
+    <Grid ControlType="RadioButton">
+      <Row>
+        <Header Span="6">Reflex: Moro</Header>
+        <Button GroupName="Moro">
+          <Header Span="3">Normal</Header>
+          <Phrase Key="Normal">Moro reflex</Phrase>
+        </Button>
+        <Button GroupName="Moro">
+          <Header Span="3">Absent</Header>
+          <Phrase Key="Absent">Moro reflex</Phrase>
+        </Button>
+      </Row>
+    </Grid>
+  </If>
+</Topic>

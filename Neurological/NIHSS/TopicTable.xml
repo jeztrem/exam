@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="C:/Users/jeztr/OneDrive/AAA/Code/Prep/Schema/User/Root.xsd"?>
+<Topic>
+  <Grid ControlType="RadioButton">
+    <Header>1a. Level of Consciousness</Header>
+    <Row>
+      <Button GroupName="1">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">3</Header>
+        <Score Key="NIHSS" Value="3" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = Alert; keenly responsive.</TextBlock>
+        <TextBlock>1 = Not alert; but arousable by minor stimulation to obey, answer, or respond.</TextBlock>
+        <TextBlock>2 = Not alert; requires repeated stimulation to attend, or is obtunded and requires strong or painful stimulation to make movements (not stereotyped).</TextBlock>
+        <TextBlock>3 = Responds only with reflex motor or autonomic effects or totally unresponsive, flaccid, and areflexic.</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>1b. LOC Questions</Header>
+    <Row>
+      <Button GroupName="2">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="2">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="2">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = Answers both questions correctly.</TextBlock>
+        <TextBlock>1 = Answers one question correctly.</TextBlock>
+        <TextBlock>2 = Answers neither question correctly.</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>1c. LOC Commands</Header>
+    <Row>
+      <Button GroupName="3">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="3">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="3">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = Performs both tasks correctly.</TextBlock>
+        <TextBlock>1 = Performs one task correctly.</TextBlock>
+        <TextBlock>2 = Performs neither task correctly.</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>2. Best Gaze</Header>
+    <Row>
+      <Button GroupName="4">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+        <Text Key="PhysicalExam.Eyes" Value="Normal gaze." />
+      </Button>
+      <Button GroupName="4">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+        <Text Key="PhysicalExam.Eyes" Value="Partial gaze palsy." />
+      </Button>
+      <Button GroupName="4">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+        <Text Key="PhysicalExam.Eyes" Value="Gaze paresis with forced deviation." />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = Normal.</TextBlock>
+        <TextBlock>1 = Partial gaze palsy; gaze is abnormal in one or both eyes, but forced deviation or total gaze paresis is not present.</TextBlock>
+        <TextBlock>2 = Forced deviation, or total gaze paresis not overcome by the oculocephalic maneuver.</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>3. Visual</Header>
+    <Row>
+      <Button GroupName="5">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="5">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="5">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = No Vision loss.</TextBlock>
+        <TextBlock>1 = Partial hemianopia.</TextBlock>
+        <TextBlock>2 = Bilateral hemianopia (blind including cortical blindness).</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>4. Facial Palsy</Header>
+    <Row>
+      <Button GroupName="6">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="6">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="6">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+      <Button GroupName="6">
+        <Header Span="2">3</Header>
+        <Score Key="NIHSS" Value="3" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = Normal symmetrical movements.</TextBlock>
+        <TextBlock>1 = Minor paralysis (flattened nasolabial fold, asymmetry on smiling).</TextBlock>
+        <TextBlock>2 = Partial paralysis (total or near-total paralysis of lower face).</TextBlock>
+        <TextBlock>3 = Complete paralysis of one or both sides (absence of facial movement in the upper and lower face).</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>5a. Motor Left Arm</Header>
+    <Row>
+      <Button GroupName="7">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="7">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="7">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+      <Button GroupName="7">
+        <Header Span="2">3</Header>
+        <Score Key="NIHSS" Value="3" />
+      </Button>
+      <Button GroupName="7">
+        <Header Span="2">4</Header>
+        <Score Key="NIHSS" Value="4" />
+      </Button>
+      <Button GroupName="7">
+        <Header Span="2">?</Header>
+        <Score Key="NIHSS" Value="Null" />
+      </Button>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>5b. Motor Right Arm</Header>
+    <Row>
+      <Button GroupName="8">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="8">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="8">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+      <Button GroupName="8">
+        <Header Span="2">3</Header>
+        <Score Key="NIHSS" Value="3" />
+      </Button>
+      <Button GroupName="8">
+        <Header Span="2">4</Header>
+        <Score Key="NIHSS" Value="4" />
+      </Button>
+      <Button GroupName="8">
+        <Header Span="2">?</Header>
+        <Score Key="NIHSS" Value="Null" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = No drift; limb holds 90 (or 45) degrees for full 10 seconds.</TextBlock>
+        <TextBlock>1 = Drift; limb holds 90 (or 45) degrees, but drifts down before full 10 seconds; does not hit bed or other support.</TextBlock>
+        <TextBlock>2 = Some effort against gravity; limb cannot get to or maintain (if cued) 90 (or 45) degrees, drifts down to bed, but has some effort against gravity.</TextBlock>
+        <TextBlock>3 = No effort against gravity; limb falls.</TextBlock>
+        <TextBlock>4 = No movement.</TextBlock>
+        <TextBlock>? = Unable: Amputation or joint fusion, explain...</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>6a. Motor Left Leg</Header>
+    <Row>
+      <Button GroupName="9">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="9">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="9">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+      <Button GroupName="9">
+        <Header Span="2">3</Header>
+        <Score Key="NIHSS" Value="3" />
+      </Button>
+      <Button GroupName="9">
+        <Header Span="2">4</Header>
+        <Score Key="NIHSS" Value="4" />
+      </Button>
+      <Button GroupName="9">
+        <Header Span="2">?</Header>
+        <Score Key="NIHSS" Value="Null" />
+      </Button>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>6b. Motor Right Leg</Header>
+    <Row>
+      <Button GroupName="10">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="10">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="10">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+      <Button GroupName="10">
+        <Header Span="2">3</Header>
+        <Score Key="NIHSS" Value="3" />
+      </Button>
+      <Button GroupName="10">
+        <Header Span="2">4</Header>
+        <Score Key="NIHSS" Value="4" />
+      </Button>
+      <Button GroupName="10">
+        <Header Span="2">?</Header>
+        <Score Key="NIHSS" Value="Null" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = No drift; leg holds 30-degree position for full 5 seconds.</TextBlock>
+        <TextBlock>1 = Drift; leg falls by the end of the 5-second period but does not hit bed.</TextBlock>
+        <TextBlock>2 = Some effort against gravity; leg falls to bed by 5 seconds, but has some effort against gravity.</TextBlock>
+        <TextBlock>3 = No effort against gravity; leg falls to bed immediately.</TextBlock>
+        <TextBlock>4 = No movement.</TextBlock>
+        <TextBlock>? = Unable: Amputation or joint fusion, explain...</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>7. Limb Ataxia</Header>
+    <Row>
+      <Button GroupName="11">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="11">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="11">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+      <Button GroupName="11">
+        <Header Span="2">?</Header>
+        <Score Key="NIHSS" Value="Null" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = Absent.</TextBlock>
+        <TextBlock>1 = Present in one limb.</TextBlock>
+        <TextBlock>2 = Present in two limbs.</TextBlock>
+        <TextBlock>? = Unable: Amputation or joint fusion, explain...</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>8. Sensory</Header>
+    <Row>
+      <Button GroupName="12">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="12">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="12">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = Normal; no sensory loss.</TextBlock>
+        <TextBlock>1 = Mild-to-moderate sensory loss; patient feels pinprick is less sharp or is dull on the affected side; or there is a loss of superficial pain with pinprick, but patient is aware of being touched.</TextBlock>
+        <TextBlock>2 = Severe to total sensory loss; patient is not aware of being touched in the face, arm, and leg.</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>9. Best Language</Header>
+    <Row>
+      <Button GroupName="13">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="13">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="13">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+      <Button GroupName="13">
+        <Header Span="2">3</Header>
+        <Score Key="NIHSS" Value="3" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = No aphasia; normal.</TextBlock>
+        <TextBlock>1 = Mild-to-moderate aphasia; some obvious loss of fluency or facility of comprehension, without significant limitation on ideas expressed or form of expression. Reduction of speech and/or comprehension, however, makes conversation about provided materials difficult or impossible.</TextBlock>
+        <TextBlock>2 = Severe aphasia; all communication is through fragmentary expression; great need for inference, questioning, and guessing by the listener.  Range of information that can be exchanged is limited; listener carries burden of communication.</TextBlock>
+        <TextBlock>3 = Mute, global aphasia; no usable speech or auditory comprehension.</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>10. Dysarthria</Header>
+    <Row>
+      <Button GroupName="14">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="14">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="14">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+      <Button GroupName="14">
+        <Header Span="2">?</Header>
+        <Score Key="NIHSS" Value="Null" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = Normal.</TextBlock>
+        <TextBlock>1 = Mild-to-moderate dysarthria; patient slurs at least some words and, at worst, can be understood with some difficulty.</TextBlock>
+        <TextBlock>2 = Severe dysarthria; patient's speech is so slurred as to be unintelligible in the absence of or out of proportion to any dysphasia, or is mute/anarthric.</TextBlock>
+        <TextBlock>? = Unable: Intubated or other physical barrier, explain ...</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>11.  Extinction and Inattention</Header>
+    <Row>
+      <Button GroupName="15">
+        <Header Span="2">0</Header>
+        <Score Key="NIHSS" Value="0" />
+      </Button>
+      <Button GroupName="15">
+        <Header Span="2">1</Header>
+        <Score Key="NIHSS" Value="1" />
+      </Button>
+      <Button GroupName="15">
+        <Header Span="2">2</Header>
+        <Score Key="NIHSS" Value="2" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>0 = No abnormality.</TextBlock>
+        <TextBlock>1 = Visual, tactile, auditory, spatial, or personal inattention or extinction to bilateral simultaneous stimulation in one of the sensory modalities.</TextBlock>
+        <TextBlock>2 = Profound hemi-inattention or extinction to more than one modality; does not recognize own hand or orients to only one side of space.</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Text Key="Score" Value="NIHSS" />
+  <Text Key="PhysicalExam.Neurological" Value="NIHSS score is #{Score}." />
+</Topic>

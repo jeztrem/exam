@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="6">Ataxic</Header>
+    <Button GroupName="Ataxic">
+      <Header Span="3">No</Header>
+      <Phrase Key="-">ataxic</Phrase>
+      <Data Key="PhysicalExam.Neurological.Gait.Ataxic" Value="+" />
+    </Button>
+    <Button GroupName="Ataxic">
+      <Header Span="3">Yes</Header>
+      <Phrase Key="Ataxic">ataxic</Phrase>
+      <Data Key="PhysicalExam.Neurological.Gait.Ataxic" Value="+" />
+    </Button>
+  </Row>
+</Root>

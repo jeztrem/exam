@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="6" TreeLevel="1">Ankle Plantarflexion</Header>
+    <Button GroupName="PlantarFlexion">
+      <Header Span="2">R = L</Header>
+      <Phrase Key="Equal">ankle plantarflexion</Phrase>
+    </Button>
+    <Button GroupName="PlantarFlexion">
+      <Header Span="2">R &gt; L</Header>
+      <Phrase Key="UnEqual">left ankle plantarflexion strength is diminished relative to the right</Phrase>
+    </Button>
+    <Button GroupName="PlantarFlexion">
+      <Header Span="2">R &lt; L</Header>
+      <Phrase Key="UnEqual">right ankle plantarflexion strength is diminished relative to the left</Phrase>
+    </Button>
+  </Row>
+</Root>

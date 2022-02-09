@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{PathShared}" Value="Key/PhysicalExam/Neurological/Vertigo" />
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6">Left</Header>
+      <Button GroupName="Dix-HallpikeLeft">
+        <Header Span="3">Neg</Header>
+        <Phrase Key="Dix-HallpikeNoLeft" />
+        <Text Key="PhysicalExam.Neurological" Value="The left-sided Dix-Hallpike maneuver was negative." />
+      </Button>
+      <Button GroupName="Dix-HallpikeLeft">
+        <Header Span="3">Pos</Header>
+        <Phrase Key="Dix-HallpikeYesLeft" />
+        <Text Key="PhysicalExam.Neurological" Value="The left-sided Dix-Hallpike maneuver was positive." />
+        <TopicImport Key="%{PathShared}/TopicDixHallpikeNystagmusType.xml" Side="Left" />
+        <TopicImport Key="%{PathShared}/TopicDixHallpikeNystagmusTempo.xml" Side="Left" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>A positive Dix-Hallpike test should produce vertical upward, rotatory nystagmus that have a latent onset with a crescendo-decrescendo pattern lasting 10-30 seconds.</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+</Topic>

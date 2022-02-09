@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6">MuscularTone</Header>
+      <Button GroupName="1">
+        <Header Span="3">Normal</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Normal muscular tone." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="3">Diminished</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Diminished muscular tone." />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Text Key="PhysicalExam.Neurological">
+    <TextOption Key="+" Value="The nystagmus were #{+}." />
+    <Conjunction Key="+" Value="and" />
+  </Text>
+  <Grid ControlType="CheckBox">
+    <Row>
+      <Header Span="6" TreeLevel="1">Nystagmus: Latent Onset</Header>
+      <Button>
+        <Header Span="6">Yes</Header>
+        <Phrase Key="+">of latent onset</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Nystagmus: Crescendo-Decrescendo</Header>
+      <Button>
+        <Header Span="6">Yes</Header>
+        <Phrase Key="+">with a crescendo-decrescendo pattern</Phrase>
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

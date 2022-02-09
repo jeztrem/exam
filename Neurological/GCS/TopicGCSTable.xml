@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Grid ControlType="RadioButton">
+    <Header>Eyes</Header>
+    <Row>
+      <Button GroupName="1">
+        <Header Span="2">4</Header>
+        <Score Key="GCS" Value="4" />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">3</Header>
+        <Score Key="GCS" Value="3" />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">2</Header>
+        <Score Key="GCS" Value="2" />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">1</Header>
+        <Score Key="GCS" Value="1" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>4 = Spontaneous</TextBlock>
+        <TextBlock>3 = To Voice</TextBlock>
+        <TextBlock>2 = To Pain</TextBlock>
+        <TextBlock>1 = None</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>Verbal</Header>
+    <Row>
+      <Button GroupName="2">
+        <Header Span="2">5</Header>
+        <Score Key="GCS" Value="5" />
+      </Button>
+      <Button GroupName="2">
+        <Header Span="2">4</Header>
+        <Score Key="GCS" Value="4" />
+      </Button>
+      <Button GroupName="2">
+        <Header Span="2">3</Header>
+        <Score Key="GCS" Value="3" />
+      </Button>
+      <Button GroupName="2">
+        <Header Span="2">2</Header>
+        <Score Key="GCS" Value="2" />
+      </Button>
+      <Button GroupName="2">
+        <Header Span="2">1</Header>
+        <Score Key="GCS" Value="1" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>5 = Oriented, Converses Normally</TextBlock>
+        <TextBlock>4 = Confused, Disoriented</TextBlock>
+        <TextBlock>3 = Inappropriate Words</TextBlock>
+        <TextBlock>2 = Incomprehensible Words</TextBlock>
+        <TextBlock>1 = None</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Grid ControlType="RadioButton">
+    <Header>Motor</Header>
+    <Row>
+      <Button GroupName="3">
+        <Header Span="2">6</Header>
+        <Score Key="GCS" Value="6" />
+      </Button>
+      <Button GroupName="3">
+        <Header Span="2">5</Header>
+        <Score Key="GCS" Value="5" />
+      </Button>
+      <Button GroupName="3">
+        <Header Span="2">4</Header>
+        <Score Key="GCS" Value="4" />
+      </Button>
+      <Button GroupName="3">
+        <Header Span="2">3</Header>
+        <Score Key="GCS" Value="3" />
+      </Button>
+      <Button GroupName="3">
+        <Header Span="2">2</Header>
+        <Score Key="GCS" Value="2" />
+      </Button>
+      <Button GroupName="3">
+        <Header Span="2">1</Header>
+        <Score Key="GCS" Value="1" />
+      </Button>
+    </Row>
+    <Row>
+      <Border Span="12">
+        <TextBlock>6 = Obeys Commands</TextBlock>
+        <TextBlock>5 = Localizes Pain</TextBlock>
+        <TextBlock>4 = Withdrawal to Pain</TextBlock>
+        <TextBlock>3 = Flexion to Pain</TextBlock>
+        <TextBlock>2 = Extension to Pain</TextBlock>
+        <TextBlock>1 = None</TextBlock>
+      </Border>
+    </Row>
+  </Grid>
+  <Text Key="PhysicalExam.Neurological" Value="Score" />
+</Topic>

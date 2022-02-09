@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/CN" />
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6">CN II-XII Grossly Intact</Header>
+      <Button GroupName="1">
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Cranial nerves II-XII grossly intact." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="3">More</Header>
+        <TopicImport Key="%{Path}/TopicDetail.xml" />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

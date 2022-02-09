@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="6">Slow</Header>
+    <Button GroupName="Slow">
+      <Header Span="3">No</Header>
+      <Phrase Key="-">slow</Phrase>
+      <Data Key="PhysicalExam.Neurological.Gait.Slow" Value="+" />
+    </Button>
+    <Button GroupName="Slow">
+      <Header Span="3">Yes</Header>
+      <Phrase Key="+">slow</Phrase>
+      <Data Key="PhysicalExam.Neurological.Gait.Slow" Value="+" />
+    </Button>
+  </Row>
+</Root>

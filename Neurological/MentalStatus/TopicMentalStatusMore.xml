@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Variable Key="%{He/She}" />
+  <Replace Key="%{PathShared}" Value="Key/PhysicalExam/Neurological/MentalStatus" />
+  <Text Key="PhysicalExam.Neurological">
+    <Conjunction Key="+" Value="and" />
+    <Conjunction Key="-" Value="or" />
+    <TextOption Key="+" Value="%{He/She} is #{+}." />
+    <TextOption Key="-" Value="%{He/She} is not #{-}." />
+  </Text>
+  <Grid ControlType="RadioButton">
+    <LocalImport Key="%{PathShared}/RowConfusedNoYes.xml" />
+    <LocalImport Key="%{PathShared}/RowObtundedNoYes.xml" />
+  </Grid>
+</Topic>

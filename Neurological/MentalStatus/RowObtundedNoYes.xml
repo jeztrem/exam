@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="6">Obtunded</Header>
+    <Button GroupName="Obtunded">
+      <Header Span="3">No</Header>
+      <Phrase Key="-">obtunded</Phrase>
+    </Button>
+    <Button GroupName="Obtunded">
+      <Header Span="3">Yes</Header>
+      <Phrase Key="+">obtunded</Phrase>
+      <Data Key="PhysicalExam.AMS" Value="+" />
+    </Button>
+  </Row>
+</Root>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="C:/Users/jeztr/OneDrive/AAA/Code/Prep/Schema/User/Root.xsd"?>
+<Root>
+  <Row>
+    <Header Span="6">Confused</Header>
+    <Button GroupName="Confused">
+      <Header Span="3">No</Header>
+      <Phrase Key="-">confused</Phrase>
+    </Button>
+    <Button GroupName="Confused">
+      <Header Span="3">Yes</Header>
+      <Phrase Key="+">confused</Phrase>
+      <Data Key="PhysicalExam.AMS" Value="+" />
+    </Button>
+  </Row>
+</Root>

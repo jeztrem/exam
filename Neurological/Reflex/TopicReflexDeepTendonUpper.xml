@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Reflex" />
+  <Text Key="PhysicalExam.Neurological">
+    <Conjunction Key="Equal" Value="and" />
+    <Conjunction Key="UnEqual" Value="" />
+    <TextOption Key="Equal" Value="The #{Equal} reflexes are symmetric.">
+      <TextOption Key="UnEqual" Value="The #{Equal} reflexes are symmetric, the #{UnEqual}." />
+    </TextOption>
+    <TextOption Key="UnEqual" Value="The #{UnEqual}." />
+  </Text>
+  <Grid ControlType="RadioButton">
+    <Header>Deep Tendon Reflex</Header>
+    <LocalImport Key="%{Path}/RowReflexBicep.xml" />
+    <LocalImport Key="%{Path}/RowReflexTricep.xml" />
+    <LocalImport Key="%{Path}/RowReflexBrachioradialis.xml" />
+  </Grid>
+</Topic>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{PathShared}" Value="Key/PhysicalExam/Neurological/Vertigo" />
+  <TopicImport Key="%{PathShared}/TopicHintsNystagmus.xml" />
+  <TopicImport Key="%{PathShared}/TopicHintsVerticalSkew.xml" />
+  <TopicImport Key="%{PathShared}/TopicHintsHeadImpulse.xml" />
+  <TopicImport Key="%{PathShared}/TopicHintsHearingLoss.xml" />
+</Topic>

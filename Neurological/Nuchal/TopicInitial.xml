@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6">Nuchal Rigidity</Header>
+      <Button GroupName="Health">
+        <Header Span="3">No</Header>
+        <Text Key="PhysicalExam.Neurological" Value="No nuchal rigidity." />
+      </Button>
+      <Button GroupName="Health">
+        <Header Span="3">Yes</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Some nuchal rigidity." />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

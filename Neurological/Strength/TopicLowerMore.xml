@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Strength" />
+  <TopicImport Key="%{Path}/TopicHip.xml" />
+  <TopicImport Key="%{Path}/TopicKnee.xml" />
+  <TopicImport Key="%{Path}/TopicAnkle.xml" />
+</Topic>

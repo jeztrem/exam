@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="6" TreeLevel="1">Achilles</Header>
+    <Button GroupName="Achilles">
+      <Header Span="2">R = L</Header>
+      <Phrase Key="Equal">achilles</Phrase>
+    </Button>
+    <Button GroupName="Achilles">
+      <Header Span="2">R &gt; L</Header>
+      <Phrase Key="UnEqual">left achilles reflex is diminished relative to the right.</Phrase>
+    </Button>
+    <Button GroupName="Achilles">
+      <Header Span="2">R &lt; L</Header>
+      <Phrase Key="UnEqual">right achilles reflex is diminished relative to the left.</Phrase>
+    </Button>
+  </Row>
+</Root>

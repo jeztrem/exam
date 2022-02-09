@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{PathShared}" Value="Key/PhysicalExam/Neurological/Vertigo" />
+  <TopicImport Key="%{PathShared}/TopicDixHallPikeRight.xml" />
+  <TopicImport Key="%{PathShared}/TopicDixHallPikeLeft.xml" />
+</Topic>

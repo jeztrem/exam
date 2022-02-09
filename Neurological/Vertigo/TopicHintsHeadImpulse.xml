@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6">Abnormal HIT</Header>
+      <Button GroupName="1">
+        <Header Span="2">Yes</Header>
+        <Phrase Key="HIT" />
+        <Text Key="PhysicalExam.Neurological" Value="Head impulse testing was abnormal." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">No</Header>
+        <Phrase Key="HIT" />
+        <Text Key="PhysicalExam.Neurological" Value="Head impulse testing was normal." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">?</Header>
+        <Phrase Key="HIT" />
+        <Text Key="PhysicalExam.Neurological" Value="Head impulse testing was equivocal." />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

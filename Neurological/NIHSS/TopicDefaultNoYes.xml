@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/NIHSS" />
+  <Grid ControlType="RadioButton">
+ <Row>
+      <Header Span="6">Preset</Header>
+      <Button GroupName="1" IsChecked="True">
+        <Header Span="3">No</Header>
+        <TopicImport Key="%{Path}/TopicTable.xml" />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="3">Yes</Header>
+        <TopicImport Key="%{Path}/TopicTableDefault.xml" />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Strength" />
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6">Extremity Strength</Header>
+      <Button GroupName="1">
+        <Header Span="3">Normal</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Normal strength in all extremities." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="3">More</Header>
+        <TopicImport Key="%{Path}/TopicUpperLowerMore.xml" />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="3" TreeLevel="1">Legs</Header>
+    <Button GroupName="Leg">
+      <Header Span="3">R = L</Header>
+      <Phrase Key="Equal">leg</Phrase>
+    </Button>
+    <Button GroupName="Leg">
+      <Header Span="3">R &gt; L</Header>
+      <Phrase Key="UnEqual">left leg strength is diminished relative to the right</Phrase>
+    </Button>
+    <Button GroupName="Leg">
+      <Header Span="3">R &lt; L</Header>
+      <Phrase Key="UnEqual">right leg strength is diminished relative to the left</Phrase>
+    </Button>
+  </Row>
+</Root>

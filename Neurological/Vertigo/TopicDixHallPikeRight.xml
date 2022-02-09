@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{PathShared}" Value="Key/PhysicalExam/Neurological/Vertigo" />
+  <Grid ControlType="RadioButton">
+    <Header>Dix-Hallpike</Header>
+    <Row>
+      <Header Span="6">Right</Header>
+      <Button GroupName="Dix-HallpikeRight">
+        <Header Span="3">Neg</Header>
+        <Phrase Key="Dix-HallpikeNoRight" />
+        <Text Key="PhysicalExam.Neurological" Value="The right-sided Dix-Hallpike maneuver was negative." />
+      </Button>
+      <Button GroupName="Dix-HallpikeRight">
+        <Header Span="3">Pos</Header>
+        <Phrase Key="Dix-HallpikeYesRight" />
+        <Text Key="PhysicalExam.Neurological" Value="The right-sided Dix-Hallpike maneuver was positive." />
+        <TopicImport Key="%{PathShared}/TopicDixHallpikeNystagmusType.xml" Side="Right" />
+        <TopicImport Key="%{PathShared}/TopicDixHallpikeNystagmusTempo.xml" Side="Right" />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

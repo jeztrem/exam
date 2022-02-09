@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Row>
+    <Header Span="6">Kernig</Header>
+    <Button GroupName="Kernig">
+      <Header Span="3">No</Header>
+      <Phrase Key="-">Kernig sign</Phrase>
+    </Button>
+    <Button GroupName="Kernig">
+      <Header Span="3">Yes</Header>
+      <Phrase Key="Kernig">Kernig sign</Phrase>
+      <Data Key="PhysicalExam.Neurological.Nuchal" Value="+" />
+    </Button>
+  </Row>
+</Root>

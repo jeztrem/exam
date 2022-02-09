@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Nuchal" />
+  <Text Key="PhysicalExam.Neurological">
+    <Conjunction Key="Positve" Value="and" />
+    <Conjunction Key="-" Value="and" />
+    <TextOption Key="+" Value="Positive #{+}.">
+      <TextOption Key="-" Value="Positive #{+} and negative #{-}" />
+    </TextOption>
+    <TextOption Key="-" Value="Negative #{-}" />
+  </Text>
+  <Grid ControlType="RadioButton">
+    <LocalImport Key="%{Path}/RowKernigNoYes.xml" />
+    <LocalImport Key="%{Path}/RowBrudzinskiNoYes.xml" />
+  </Grid>
+</Topic>

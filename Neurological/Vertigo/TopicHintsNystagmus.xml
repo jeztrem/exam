@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Grid ControlType="RadioButton">
+    <Header>HINTS+</Header>
+    <Row>
+      <Header Span="6">Nystagmus Direction</Header>
+      <Button GroupName="1">
+        <Header Span="2">Uni</Header>
+        <Phrase Key="Nystagmus" />
+        <Text Key="PhysicalExam.Neurological" Value="Spontaneous or gaze evoked nystagmus were unidirectional." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">Bi</Header>
+        <Phrase Key="Nystagmus" />
+        <Text Key="PhysicalExam.Neurological" Value="Spontaneous or gaze evoked nystagmus were bidirectional." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="2">?</Header>
+        <Phrase Key="Nystagmus" />
+        <Text Key="PhysicalExam.Neurological" Value="Spontaneous or gaze evoked nystagmus testing was inconclusive." />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

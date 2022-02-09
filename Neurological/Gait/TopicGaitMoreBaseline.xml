@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Variable Key="%{His/Her}" />
+  <Text Key="PhysicalExam.Neurological">
+    <Conjunction Key="-" Value="or" />
+    <Conjunction Key="+" Value="and" />
+    <TextOption Key="-" Value="%{His/Her} gait is not #{-}.">
+      <TextOption Key="+" Value="%{His/Her} gait is #{+}, but not #{-}." />
+    </TextOption>
+    <TextOption Key="+" Value="%{His/Her} gait is #{+}." />
+    <TextOption Key="Baseline" Value="#{Baseline}" />
+    <TextOption Key="Ataxic" Value="#{Ataxic}" />
+    <TextOption Key="Shuffled" Value="#{Shuffled}" />
+  </Text>
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6" TreeLevel="1">Baseline</Header>
+      <Button GroupName="Baseline">
+        <Header Span="6">Yes</Header>
+        <Phrase Key="Baseline">Gait at baseline.</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Ataxic</Header>
+      <Button GroupName="Ataxic">
+        <Header Span="3">No</Header>
+        <Phrase Key="-">ataxic</Phrase>
+      </Button>
+      <Button GroupName="Ataxic">
+        <Header Span="3">Yes</Header>
+        <Phrase Key="Ataxic">Gait is ataxic.</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Shuffled</Header>
+      <Button GroupName="Shuffled">
+        <Header Span="3">No</Header>
+        <Phrase Key="-">shuffled</Phrase>
+      </Button>
+      <Button GroupName="Shuffled">
+        <Header Span="3">Yes</Header>
+        <Phrase Key="Shuffled">Shuffling gait.</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Slow</Header>
+      <Button GroupName="Slow">
+        <Header Span="3">No</Header>
+        <Phrase Key="-">slow</Phrase>
+      </Button>
+      <Button GroupName="Slow">
+        <Header Span="3">Yes</Header>
+        <Phrase Key="+">slow</Phrase>
+      </Button>
+    </Row>
+    <Row>
+      <Header Span="6" TreeLevel="1">Wide Based</Header>
+      <Button GroupName="WideBased">
+        <Header Span="3">No</Header>
+        <Phrase Key="-">wide based</Phrase>
+      </Button>
+      <Button GroupName="WideBased">
+        <Header Span="3">Yes</Header>
+        <Phrase Key="+">wide based</Phrase>
+      </Button>
+    </Row>
+  </Grid>
+</Topic>

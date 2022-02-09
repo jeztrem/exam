@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/MentalStatus" />
+  <If>
+    <Condition Operator="[" Key="Age" Value="1" Unit="Day" />
+    <Condition Operator="]" Key="Age" Value="2" Unit="Month" />
+    <Text Key="PhysicalExam.Neurological">
+      <TextOption Key="Alert" Value="Child is alert.">
+        <TextOption Key="Quiet" Value="Child is alert and quiet." />
+      </TextOption>
+      <TextOption Key="Quiet" Value="Child is quiet." />
+      <TextOption Key="Crying" Value="Child is crying.">
+        <TextOption Key="Listless" Value="The child appears listless and has a weak cry." />
+      </TextOption>
+      <TextOption Key="Listless" Value="The child appears listless." />
+    </Text>
+    <Grid ControlType="CheckBox">
+      <Row>
+        <Header Span="6">Alert</Header>
+        <Button>
+          <Header Span="6">Yes</Header>
+          <Phrase Key="Alert" />
+        </Button>
+      </Row>
+      <Row>
+        <Header Span="6">Quiet</Header>
+        <Button>
+          <Header Span="6">Yes</Header>
+          <Phrase Key="Quiet" />
+        </Button>
+      </Row>
+      <Row>
+        <Header Span="6">Crying</Header>
+        <Button>
+          <Header Span="6">Yes</Header>
+          <Phrase Key="Crying" />
+        </Button>
+      </Row>
+      <Row>
+        <Header Span="6">Listless</Header>
+        <Button>
+          <Header Span="6">Yes</Header>
+          <Phrase Key="Listless" />
+          <Data Key="PhysicalExam.AMS" Value="+" />
+        </Button>
+      </Row>
+    </Grid>
+  </If>
+  <If>
+    <Condition Operator="(" Key="Age" Value="2" Unit="Month" />
+    <Condition Operator="]" Key="Age" Value="18" Unit="Month" />
+    <Text Key="PhysicalExam.Neurological">
+      <TextOption Key="Alert" Value="Child is alert.">
+        <TextOption Key="Smiles" Value="Child is alert and smiles." />
+      </TextOption>
+      <TextOption Key="Smiles" Value="Child will smile." />
+      <TextOption Key="Crying" Value="Child is crying.">
+        <TextOption Key="Listless" Value="The child appears listless and has a weak cry." />
+      </TextOption>
+      <TextOption Key="Listless" Value="The child appears listless." />
+    </Text>
+    <Grid ControlType="CheckBox">
+      <Row>
+        <Header Span="6">Alert</Header>
+        <Button>
+          <Header Span="6">Yes</Header>
+          <Phrase Key="Alert" />
+        </Button>
+      </Row>
+      <Row>
+        <Header Span="6">Smiles</Header>
+        <Button>
+          <Header Span="6">Yes</Header>
+          <Phrase Key="Smiles" />
+        </Button>
+      </Row>
+      <Row>
+        <Header Span="6">Crying</Header>
+        <Button>
+          <Header Span="6">Yes</Header>
+          <Phrase Key="Crying" />
+        </Button>
+      </Row>
+      <Row>
+        <Header Span="6">Listless</Header>
+        <Button>
+          <Header Span="6">Yes</Header>
+          <Phrase Key="Listless" />
+          <Data Key="PhysicalExam.AMS" Value="+" />
+        </Button>
+      </Row>
+    </Grid>
+  </If>
+  <If>
+    <Condition Operator="(" Key="Age" Value="18" Unit="Month" />
+    <Text Key="PhysicalExam.Neurological">
+      <TextOption Key="Alert" Value="Alert and oriented to person, place and time." />
+      <TextOption Key="More" Value="" />
+    </Text>
+    <Grid ControlType="RadioButton">
+      <Row>
+        <Header Span="6">Alert and OX3</Header>
+        <Button GroupName="1">
+          <Header Span="3">Yes</Header>
+          <Phrase Key="Alert" />
+        </Button>
+        <Button GroupName="1">
+          <Header Span="3">More</Header>
+          <Phrase Key="More" />
+          <TopicImport Key="%{Path}/TopicMentalStatusMore.xml" />
+        </Button>
+      </Row>
+    </Grid>
+  </If>
+</Topic>
