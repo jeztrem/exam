@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Gait" />
+  <Grid ControlType="RadioButton">
+    <Row>
+      <Header Span="6">Finger-Nose-Finger</Header>
+      <Button GroupName="1">
+        <Header Span="3">Normal</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Normal finger-nose-finger." />
+      </Button>
+      <Button GroupName="1">
+        <Header Span="3">More</Header>
+        <TopicImport Key="%{Path}/TopicFNFMore.xml" />
+      </Button>
+    </Row>
+  </Grid>
+</Topic>
