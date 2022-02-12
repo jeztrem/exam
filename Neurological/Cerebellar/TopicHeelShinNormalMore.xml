@@ -3,14 +3,14 @@
   <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Cerebellar" />
   <Grid ControlType="RadioButton">
     <Row>
-      <Header Span="6">Rhomberg</Header>
+      <Header Span="6">Heel-Shin</Header>
       <Button GroupName="1">
-        <Header Span="3">Neg</Header>
-        <Text Key="PhysicalExam.Neurological" Value="Rhomberg negative." />
+        <Header Span="3">Normal</Header>
+        <Text Key="PhysicalExam.Neurological" Value="Normal heel-shin test." />
       </Button>
       <Button GroupName="1">
-        <Header Span="3">Pos</Header>
-        <Text Key="PhysicalExam.Neurological" Value="Rhomberg positive." />
+        <Header Span="3">More</Header>
+        <TopicImport Key="%{Path}/TopicHeelShinMore.xml" />
       </Button>
     </Row>
   </Grid>

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topic>
-  <Text Key="">
-    <TextOption Key="Rn" Value="The finger-nose-finger on the right is normal.">
-      <TextOption Key="Ln" Value="The finger-nose-finger on the right is normal, finger-nose-finger on the left is normal." />
-      <TextOption Key="L+" Value="The finger-nose-finger on the right is normal, but there is dysmetria on the left."/>
+  <Text Key="PhysicalExam.Neurological">
+    <TextOption Key="Rn" Value="The finger-nose-finger test on the right is normal.">
+      <TextOption Key="Ln" Value="The finger-nose-finger test is normal." />
+      <TextOption Key="L+" Value="The finger-nose-finger test on the right is normal, but there is dysmetria on the left."/>
     </TextOption>
-    <TextOption Key="Ln" Value="The finger-nose-finger on the left is normal.">
-      <TextOption Key="R+" Value="The finger-nose-finger on the left is normal, but there is dysmetria on the right."/>
+    <TextOption Key="Ln" Value="The finger-nose-finger test on the left is normal.">
+      <TextOption Key="R+" Value="The finger-nose-finger test on the left is normal, but there is dysmetria on the right."/>
     </TextOption>
-    <TextOption Key="R+" Value="The finger-nose-fever test demonstrates dysmetria on the right.">
-      <TextOption Key="L+" Value="The finger-nose-finger demonstrates bilateral dysmetria."/>
+    <TextOption Key="R+" Value="The finger-nose-finger test demonstrates dysmetria on the right.">
+      <TextOption Key="L+" Value="The finger-nose-finger test demonstrates bilateral dysmetria."/>
     </TextOption>
-    <TextOption Key="L+" Value="The finger-nose-fever test demonstrates dysmetria on the left."/>
+    <TextOption Key="L+" Value="The finger-nose-finger test demonstrates dysmetria on the left."/>
   </Text>
   <Grid ControlType="CheckBox">
     <Row>

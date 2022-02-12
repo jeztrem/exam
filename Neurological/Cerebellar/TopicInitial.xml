@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="C:/Users/jeztr/OneDrive/AAA/Code/Prep/Schema/User/Root.xsd"?>
+<Topic>
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Cerebellar" />
+  <TopicImport Key="%{Path}/TopicRhomberg.xml" />
+  <TopicImport Key="%{Path}/TopicFNFNormalMore.xml" />
+  <TopicImport Key="%{Path}/TopicHeelShinNormalMore.xml" />
+</Topic>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topic>
-  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Gait" />
+  <Replace Key="%{Path}" Value="Key/PhysicalExam/Neurological/Cerebellar" />
   <Grid ControlType="RadioButton">
     <Row>
       <Header Span="6">Finger-Nose-Finger</Header>
